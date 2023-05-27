@@ -1,0 +1,80 @@
+.css-1160xiw-MuiPaper-root-MuiDrawer-paper {
+    background-color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    border-bottom: 1px solid #ff0000;
+    background-color: #000;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px ;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+}
+
+.header__left a {
+    margin-right: 20px;
+}
+
+.header__left a:last-child {
+    margin-right: 0 !important;
+}
+
+.header__left a, .header__right a {
+    color: #fff;
+}
+
+.logoHeader {
+    width: 80px;
+}
+
+.header__left-menuburger {
+    display: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+a#admin {
+    display: none;
+}
+
+a#contact {
+    margin-right: 0;
+}
+
+@media (max-width: 670px) {
+    .header__left-items {
+        display: none;
+    }
+    
+    .header__left-menuburger {
+        display: block !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .header__inner {
+        padding: 15px 50px;
+    }
+}
+
+@media (max-width: 450px) {
+    .header__inner {
+        padding: 20px 25px;
+        font-size: 14px;
+    }
+
+    .header__right a {
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,55 @@
+.payItems__inner {
+    overflow-y: auto;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pay__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.pay__nameItem {
+    margin-bottom: 10px;
+}
+
+.pay__sizeItem {
+    margin-left: 20px;
+}
+
+.pay__sizePicker {
+    flex-wrap: wrap;
+    display: flex;
+    width: 150px;
+}
+
+.pay__sizeBtn {
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    color: rgba(0, 0, 0, 0.54);
+    font-weight: 500;
+    font-size: 14px;
+    padding: 11px;
+}
+
+.pay__sizeBtn:first-child {
+    border-right: none;
+  }
+  
+  .pay__sizeBtn:last-child {
+    border-left: none;
+  }
+  
+  .pay__sizeBtn:only-child {
+    border: 1px solid rgba(0, 0, 0, 0.12);
+  }
+
+.pay__sizeBtn-active {
+    color: #1976d2;
+    background-color: rgba(25, 118, 210, 0.08);
+}
+
+.btnModal__btn {
+    margin-right: 10px !important;
+}

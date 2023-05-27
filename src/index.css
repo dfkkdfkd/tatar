@@ -1,0 +1,63 @@
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.homeInner {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.innerContent {
+  margin-top: 90px;
+  padding: 0 20px 0 20px;
+}
+
+.drawerFilter {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.linkFilter {
+  width: 100%;
+  text-decoration: none;
+  color: #000;
+}
+
+.filterClear button {
+  width: 100%;
+}
+
+.isEmpty {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 500px) {
+  .cardItem {
+    width: 100% !important;
+  }
+  .cardDesc {
+    white-space: inherit !important; 
+    height: 25px;
+  }
+}

@@ -1,0 +1,44 @@
+.cardItem {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px,
+    rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+  width: 100px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.cardImage {
+  width: 100px;
+}
+
+.cardDesc {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #000;
+}
+
+.cardPrice {
+  text-align: right;
+  color: #000;
+}
+
+.cardBottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.buttonCard {
+    background: none;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.iconBtn {
+    width: 30px;
+}
